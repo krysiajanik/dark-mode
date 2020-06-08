@@ -1,6 +1,6 @@
 :root {
     --background-color:  rgb(255, 255, 255);
-    --text-color: black;
+    --text-color: rgb(0,0,0);
     --slider-color: rgb(220, 223, 224);
 }
 
