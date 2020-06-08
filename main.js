@@ -6,10 +6,12 @@ slider.addEventListener ('click', () => {
         document.documentElement.style.setProperty('--background-color', 'rgb(0, 0, 0)');
         document.documentElement.style.setProperty('--text-color', 'rgb(250, 233, 233');
         document.documentElement.style.setProperty('--slider-color', 'rgb(0, 0, 0)');
+        document.documentElement.style.setProperty('--slider-focus-color', '#464545');
     } else if (slider.value === '0') {
         document.documentElement.style.setProperty('--background-color', 'rgb(250, 233, 233');
         document.documentElement.style.setProperty('--text-color', 'rgb(0, 0, 0)');
         document.documentElement.style.setProperty('--slider-color', 'rgb(250, 233, 233)');
+        document.documentElement.style.setProperty('--slider-focus-color', 'rgb(151, 182, 223)');
     }
 })
 

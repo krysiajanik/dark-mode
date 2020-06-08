@@ -2,6 +2,7 @@
     --background-color:  rgb(255, 255, 255);
     --text-color: rgb(0,0,0);
     --slider-color: rgb(220, 223, 224);
+    --slider-focus-color: rgb(151, 182, 223);
 }
 
 body {
@@ -52,7 +53,7 @@ html {
     border-radius: 50%;
     background: var(--slider-color);
     cursor: pointer;
-    box-shadow: 1px 1px 1px #464545, 0px 0px 1px #464545; /* Add cool effects to your sliders! */
+    box-shadow: 1px 1px 1px #464545, 0px 0px 1px #464545; 
 }
 
 .switch__slider::-webkit-slider-runnable-track {
@@ -68,7 +69,7 @@ html {
 }
 
 .switch__slider:focus::-webkit-slider-runnable-track {
-    background:  rgb(151, 182, 223);
+    background:  var(--slider-focus-color);
 }
 
 .switch__wrapper {
